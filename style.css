@@ -1,9 +1,9 @@
 header {
   background-color: #400913;
   margin-top: -10em;
-  padding-bottom: 0em;
 }
 h1 {
+  text-align: center;
   margin: 2em;
   padding-top: 1em;
   font-size: 5em;
@@ -38,8 +38,16 @@ button {
   padding-right: 1rem;
 }
 
+nav button {
+  background-color: #400913;
+}
+
+nav {
+  margin-bottom: 5rem;
+}
+
 .valgt {
-  background-color: #efb88b;
+  background-color: #000000;
 }
 
 header h2 {
