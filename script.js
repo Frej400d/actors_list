@@ -22,7 +22,6 @@ function filtrerActors() {
   this.classList.add("valgt");
 
   visActors();
-  header.textContent = this.textContent;
 }
 
 async function hentdata(fil) {
