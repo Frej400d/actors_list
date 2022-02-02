@@ -1,16 +1,6 @@
 header {
   background-color: #400913;
-  margin-top: -10em;
-}
-h1 {
-  text-align: center;
-  margin: 2em;
-  padding-top: 1em;
-  font-size: 5em;
-  color: #ffffff;
-  font-family: "Rubik Mono One", sans-serif;
-  font-weight: 300;
-  margin-bottom: 0.5em;
+  margin-top: -4.5em;
 }
 
 body {
@@ -40,6 +30,7 @@ button {
 
 nav button {
   background-color: #400913;
+  font-size: 2em;
 }
 
 nav {
@@ -50,15 +41,20 @@ nav {
   background-color: #000000;
 }
 
+h1 {
+  text-align: center;
+  padding-top: 1em;
+  font-size: 5em;
+  color: #ffffff;
+  font-family: "Rubik Mono One", sans-serif;
+  font-weight: 300;
+}
+
 header h2 {
   font-family: "Russo One", sans-serif;
   text-align: center;
   font-size: 2.5em;
   color: #ffffff;
-}
-
-.deler {
-  background-color: #345554;
 }
 
 h3 {
@@ -93,6 +89,7 @@ hr {
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  justify-content: center;
 }
 
 #popup {
@@ -101,7 +98,7 @@ hr {
   background-color: #00000099;
   position: fixed;
   top: 0;
-  padding: 2em;
+
   display: none;
   justify-content: center;
 }
@@ -117,7 +114,7 @@ hr {
 
 #tilbage {
   font-family: "Rubik Mono One", sans-serif;
-  margin-left: 15em;
+  font-size: 1em;
 }
 #popupinfo h2 {
   color: #345554;
@@ -125,4 +122,26 @@ hr {
   font-weight: 200;
   font-size: 1.5em;
   margin-bottom: 0;
+}
+
+@media (min-width: 780px) {
+  h1 {
+    text-align: center;
+    margin: 2em;
+    padding-top: 1em;
+    font-size: 5em;
+  }
+
+  #tilbage {
+    margin-left: 15em;
+  }
+
+  #popup {
+    padding: 2em;
+  }
+
+  header {
+    background-color: #400913;
+    margin-top: -10em;
+  }
 }
